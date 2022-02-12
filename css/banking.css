@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.banking-items h2 {
+  font-size: 45px;
+  padding-top: 80px;
+}
+span {
+  color: blue;
+}
+.items {
+  gap: 20px;
+  margin-top: 30px;
+}
+.deposit {
+  background-color: lightblue;
+height: 180px;
+  width: 400px;
+  padding: 40px 30px;
+}
+.withdraw {
+  background-color: lightcoral;
+  height: 180px;
+  width: 400px;
+  padding: 40px 30px;
+}
+.balance {
+  background-color: lightseagreen;
+ height: 180px;
+  width: 400px;
+  padding: 40px 30px;
+}
+.item2{
+    margin-top: 50px;
+    gap: 20px;
+}
+.amount{
+    height: 250px;
+    width: 612px;
+    background-color: rgba(63, 80, 240, 0.383);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.amount input{
+    outline: none;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+.amount button{
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.657);
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.withdraw-amount{
+    background-color: rgba(14, 157, 182, 0.527);
+}

@@ -59,10 +59,13 @@ header{
 .fa-solid{
     color: white;
     font-size: 21px;
-    border: 1px solid white;
+    border: 1px dotted white;
     padding:7px;
     border-radius: 5px;
 }
 #span{
     color: rgb(0, 255, 221);
+}
+input[type="text"]{
+    margin-top: 20px;
 }

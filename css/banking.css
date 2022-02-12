@@ -29,18 +29,21 @@ span {
 height: 180px;
   width: 400px;
   padding: 40px 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .withdraw {
   background-color: lightcoral;
   height: 180px;
   width: 400px;
   padding: 40px 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .balance {
   background-color: lightseagreen;
  height: 180px;
   width: 400px;
   padding: 40px 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .item2{
     margin-top: 50px;

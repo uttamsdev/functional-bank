@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body{
+  background-color: rgba(81, 177, 148, 0.034);
+}
 
 .container {
   width: 1400px;

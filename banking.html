@@ -16,29 +16,29 @@
     <section class="container items">
         <div class="deposit">
             <h2>Deopsit</h2>
-            <h1>$<span>00</span></h1>
+            <h1>$<span id="deposit-text">00</span></h1>
         </div>
         <div class="withdraw">
             <h2>Withdraw</h2>
-            <h1>$<span>00</span></h1>
+            <h1>$<span id="withdraw-text">00</span></h1>
         </div>
         <div class="balance">
             <h2>Balance</h2>
-            <h1>$<span>00</span></h1>
+            <h1>$<span id="balance-text">1000</span></h1>
         </div>
     </section>
     <section class="container item2">
             <div class="amount">
                 <h2>Deposit Amount</h2>
-                <input type="text" placeholder="$ Enter amount">
-                <button>Deposit</button>
+                <input id="deposit-input" type="text" placeholder="$ Enter amount">
+                <button id="deposit-btn">Deposit</button>
             </div>
             <div class="amount withdraw-amount">
                 <h2>Withdraw Amount</h2>
-                <input type="text" placeholder="$ Enter amount">
-                <button>Withdraw</button>
+                <input id="withdraw-input" type="text" placeholder="$ Enter amount">
+                <button id="withdraw-btn">Withdraw</button>
             </div>
-
     </section>
+    <script src="js/banking.js"></script>
 </body>
 </html>

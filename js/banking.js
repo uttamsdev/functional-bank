@@ -1,16 +1,16 @@
 document.getElementById("deposit-btn").addEventListener("click", function () {
   const depositInput = document.getElementById("deposit-input");
-  if(depositInput === '' || isNaN(depositInput)){
-    alert('Input Filed Empty or Enter valid number.');
+  const depositInputValue = depositInput.value;
+  if(depositInputValue === '' || isNaN(depositInputValue)){
+    alert('Input Field Empty or Enter valid number.');
     return;
   }
   const depositText = document.getElementById("deposit-text");
   const currentDepositText = depositText.innerText;
-  const depositInputValue = depositInput.value;
-  depositText.innerText =
+  const updatedDepositText =
     parseFloat(currentDepositText) + parseFloat(depositInputValue);
+  depositText.innerText = updatedDepositText;
   depositInput.value = "";
-
   const balanceText = document.getElementById("balance-text");
   const updatedBalance =
     parseFloat(depositInputValue) + parseFloat(balanceText.innerText);

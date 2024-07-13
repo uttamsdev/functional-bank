@@ -17,9 +17,6 @@ document.getElementById("deposit-btn").addEventListener("click", function () {
   balanceText.innerText = updatedBalance;
 });
 
-// console.log(document.getElementById('deposit-input'));
-
-
 document.getElementById("withdraw-btn").addEventListener("click", function () {
   const withdrawInput = document.getElementById("withdraw-input");
   const currentWithdrawInput = withdrawInput.value;
